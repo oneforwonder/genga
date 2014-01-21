@@ -1,13 +1,18 @@
-# ga
+# genga
 
-FIXME: write description
+Clojure is awesome. Genetic algorithms are awesome. Let's do this.
 
 ## Usage
 
-FIXME: write
+genga can be run by itself to optimize a "number agent" (it's just a number!)
+
+* lein deps
+* lein run
+
+genga is also written in a generic fashion so it can be used in many applications
 
 ## License
 
-Copyright (C) 2011 FIXME
+Copyright (C) 2014 Robert Nagle (rjn945)
 
 Distributed under the Eclipse Public License, the same as Clojure.

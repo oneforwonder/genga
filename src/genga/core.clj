@@ -2,7 +2,7 @@
   (:use (ga :only [run-ga])
         (util :only [avg indexed])))
 
-(defn use-ga []
+(defn -main []
   (binding [*selection-type* :tournament
             *crossover-type* :one-point]
     (doseq [[i gen] (indexed (take 50 (run-ga 20)))]
