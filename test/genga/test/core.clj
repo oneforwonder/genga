@@ -1,5 +1,5 @@
-(ns ga.test.core
-  (:use [ga.core])
+(ns genga.test.core
+  (:use [genga.core])
   (:use [clojure.test]))
 
 (deftest replace-me ;; FIXME: write
