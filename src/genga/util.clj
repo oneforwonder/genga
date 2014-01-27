@@ -1,7 +1,7 @@
 (ns genga.util)
 
 (defn weighted-rand-nth
-  "Take two corresponding seqs of weights and xs and return a random x with the
+  "Take two corresponding seqs of xs and weights and return a random x with the
   likelihood of weight-of-x/sum-of-weights. Example: [:a :b :c], [4 6 10] would
   yield :a 20%, :b 30%, and :c 50% of the time."
   [xs weights]

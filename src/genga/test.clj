@@ -1,4 +1,4 @@
-(ns genga.core
+(ns genga.test
   (:use [genga.ga])
   (:require [genga.util]
             [genga.digit-agent]))
