@@ -57,7 +57,7 @@
 ;; Selections fns
 (defn select-by-weight [agents scores]
   (let [min-score (reduce min scores)
-        scaled-ws (map #(*weight-scale-fn* % min-weight) scores)]
+        scaled-ws (map #(*score->weight-fn* % min-weight) scores)]
     (weighted-rand-nth agents scaled-ws)))
 
 (defn select-by-tournament [agents scores]
